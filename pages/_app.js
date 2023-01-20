@@ -1,5 +1,12 @@
-import '../styles/globals.css'
+import "../styles/globals.css";
+import Layout from "../src/components/layout/Layout";
 
-export default function App({ Component, pageProps }) {
-  return <Component {...pageProps} />
-}
+import { Roboto } from "@next/font/google";
+
+const App = ({ Component, pageProps }) => (
+  <Layout>
+    <Component {...pageProps} />
+  </Layout>
+);
+
+export default App;

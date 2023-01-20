@@ -1,0 +1,58 @@
+.Footer {
+  padding: 24px 0;
+  overflow: hidden;
+}
+
+.Footer > div {
+  position: relative;
+  z-index: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  gap: 14px;
+}
+
+.Footer p,
+.Footer a {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 140%;
+  color: #e6e6e6;
+}
+
+.Footer p {
+  line-height: 120%;
+  text-align: center;
+}
+
+.Footer > div a {
+  text-decoration: underline;
+  position: relative;
+  right: 0px;
+}
+
+.Footer p span {
+  display: block;
+}
+
+@media only screen and (min-width: 768px) {
+}
+
+@media only screen and (min-width: 992px) {
+  .Footer p {
+    line-height: 120%;
+    text-align: left;
+  }
+}
+
+@media only screen and (min-width: 1280px) {
+  .Footer > div {
+    flex-direction: row;
+  }
+
+  .Footer p span {
+    display: inline;
+  }
+}

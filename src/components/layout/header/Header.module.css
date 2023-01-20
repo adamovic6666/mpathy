@@ -1,0 +1,168 @@
+.Header {
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  justify-content: space-between;
+  position: fixed;
+  width: 100%;
+  left: 50%;
+  transform: translateX(-50%);
+  z-index: 100;
+  background-color: transparent;
+  /* top: -200px; */
+  transition: all 0.3s ease-in-out;
+}
+
+/* Je otvoren na pocetku */
+.Initial {
+  top: 0;
+}
+
+.Initial .NavWrapper > div:last-of-type div {
+  background-color: white !important;
+}
+
+.OpenNav {
+  background-color: transparent !important;
+  transition: all 0.3s ease-in-out;
+}
+
+.PrivacyHeader .NavWrapper > div span:nth-of-type(1) {
+  color: var(--secondary-color);
+  transition: all 0.3s ease-in-out;
+}
+
+.PrivacyHeader .NavWrapper > div span:nth-of-type(2) {
+  color: var(--text-color-dark);
+  transition: all 0.3s ease-in-out;
+}
+
+.OpenNav .NavWrapper > div span:nth-of-type(1) {
+  color: var(--secondary-color);
+  transition: all 0.3s ease-in-out;
+}
+
+.OpenNav .NavWrapper > div span:nth-of-type(2) {
+  color: var(--text-color-dark);
+  transition: all 0.3s ease-in-out;
+}
+
+.OpenNav .NavWrapper > div:last-of-type > div {
+  background-color: var(--text-color-dark) !important;
+}
+
+.PrivacyHeader .NavWrapper > div:last-of-type > div {
+  background-color: var(--text-color-dark) !important;
+}
+
+.Close {
+  top: -200px;
+}
+
+.OnScroll {
+  top: -200px;
+}
+
+.OnScrollDisble {
+  top: 0;
+}
+
+.Open {
+  top: 0;
+  background-color: white;
+}
+
+.Initial .NavWrapper span {
+  color: white;
+}
+
+.OnScroll .NavWrapper span:nth-of-type(1) {
+  color: var(--secondary-color);
+}
+
+.OnScroll .NavWrapper span:nth-of-type(2) {
+  color: var(--text-color-dark);
+}
+
+.Nav {
+  display: none;
+}
+
+.NavWrapper {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  position: relative;
+  z-index: 2;
+  max-width: 1440px;
+  margin: 0 auto;
+}
+
+.Header,
+.NavWrapper,
+.NavList {
+  display: flex;
+  align-items: center;
+}
+
+.NavList {
+  list-style: none;
+  padding: 0;
+  margin-left: 5rem;
+  gap: 1.5rem;
+}
+
+.NavList a {
+  text-transform: capitalize;
+  transition: 0.3s all;
+  font-weight: 900;
+  font-size: 16px;
+  line-height: 23px;
+  color: var(--black);
+}
+
+.PrivacyHeader .NavList a {
+  color: var(--text-color-dark);
+}
+
+.Open .NavList a {
+  color: var(--text-color-dark);
+}
+
+.NavList a:hover {
+  color: #fff;
+}
+
+.Header > div:last-of-type > div {
+  z-index: 4;
+}
+
+@media only screen and (min-width: 768px) {
+}
+
+@media only screen and (min-width: 992px) {
+  .Nav {
+    display: block;
+  }
+
+  .NavWrapper > div:last-of-type {
+    display: none;
+  }
+
+  .Header {
+    padding-top: 1.5rem;
+    padding-bottom: 1.5rem;
+  }
+}
+
+@media only screen and (min-width: 1280px) {
+}
+
+/* @media only screen and (max-width: 768px) {
+}
+
+@media only screen and (max-width: 992px) {
+
+
+@media only screen and (max-width: 1280px) {
+
+} */
