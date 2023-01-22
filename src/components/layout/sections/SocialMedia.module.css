@@ -1,0 +1,14 @@
+.SocialMedia {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  display: flex;
+  align-items: center;
+  gap: 16px;
+}
+
+.SocialMedia svg {
+  width: 36px;
+  height: 36px;
+}

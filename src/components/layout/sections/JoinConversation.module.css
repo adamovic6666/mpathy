@@ -1,0 +1,77 @@
+.JoinConversation {
+  margin-bottom: 80px;
+  display: flex;
+  align-items: center;
+  margin-top: 100px;
+}
+
+.JoinConversationImage {
+  object-fit: cover;
+  height: 420px;
+  width: 50%;
+  margin-right: 120px;
+}
+
+.JoinConversation div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+}
+.JoinConversation p {
+  max-width: 480px;
+  font-size: 24px;
+  color: white;
+  line-height: 120%;
+  text-align: center;
+  margin-bottom: 32px;
+}
+
+.JoinConversation a {
+  width: fit-content;
+}
+
+.AppScreenshots {
+  display: flex;
+  margin-bottom: 32px;
+  column-gap: 32px;
+  align-items: center;
+  flex-direction: column;
+}
+
+.AppScreenshots h2 {
+  color: white;
+  margin: 40px 0 80px;
+}
+
+.AppScreenshots > div {
+  display: flex;
+  margin-bottom: 32px;
+  column-gap: 32px;
+  align-items: center;
+  position: relative;
+  padding-bottom: 64px;
+}
+
+.AppScreenshots img {
+  border: 3px solid black;
+  border-radius: 8px;
+  margin-right: 0;
+  object-fit: contain;
+  height: 420px;
+}
+
+.AppLogos {
+  margin-top: 40px;
+  position: absolute;
+  bottom: -40px;
+  right: 0;
+  z-index: 1;
+  display: flex;
+  gap: 32px;
+}
+
+.AppLogos img {
+  height: auto;
+  border: none;
+}

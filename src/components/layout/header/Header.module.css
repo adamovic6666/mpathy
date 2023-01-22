@@ -117,15 +117,15 @@
   font-weight: 900;
   font-size: 16px;
   line-height: 23px;
-  color: var(--black);
+  color: #fff;
 }
 
-.PrivacyHeader .NavList a {
+/* .PrivacyHeader .NavList a {
   color: var(--text-color-dark);
-}
+} */
 
 .Open .NavList a {
-  color: var(--text-color-dark);
+  color: var(--primary-color);
 }
 
 .NavList a:hover {
@@ -151,6 +151,10 @@
   .Header {
     padding-top: 1.5rem;
     padding-bottom: 1.5rem;
+  }
+
+  .OnScroll {
+    padding: 1rem 0;
   }
 }
 

@@ -6,12 +6,6 @@ import classes from "./Header.module.css";
 import MobileNav from "./MobileNav";
 import { NAV_LINKS } from "../../../data/data";
 import { useRouter } from "next/router";
-import { Roboto } from "@next/font/google";
-
-const roboto = Roboto({
-  weight: "400",
-  subsets: ["latin"],
-});
 
 const Header = () => {
   const [isOpen, setOpen] = useState(false);
@@ -48,11 +42,9 @@ const Header = () => {
         }}
       />
       <header
-        className={`${roboto.className} ${classes.Header} ${
-          isOpen ? classes.OpenNav : ""
-        }  ${isMainPage ? classes.Initial : classes.PrivacyHeader} ${
-          headerIsVisible ? classes.Close : ""
-        }`}
+        className={` ${classes.Header} ${isOpen ? classes.OpenNav : ""}  ${
+          isMainPage ? classes.Initial : classes.PrivacyHeader
+        } ${headerIsVisible ? classes.Close : ""}`}
       >
         <div className={`${classes.NavWrapper} $ container`}>
           <Logo isWhite={true} />
@@ -68,7 +60,7 @@ const Header = () => {
           <Hamburger toggled={isOpen} toggle={setOpen} />
         </div>
       </header>
-      {/* <header
+      <header
         className={`${classes.Header} ${isOpen ? classes.OpenNav : ""}  ${
           classes.OnScroll
         } ${headerIsVisible ? classes.Open : ""}`}
@@ -86,7 +78,7 @@ const Header = () => {
           </nav>
           <Hamburger toggled={isOpen} toggle={setOpen} />
         </div>
-      </header> */}
+      </header>
     </>
   );
 };
