@@ -34,7 +34,7 @@
 .Hero p {
   font-style: normal;
   color: #000000;
-  max-width: 423px;
+  max-width: 483px;
 }
 
 .Hero h1 {
@@ -52,6 +52,13 @@
   font-size: 18px;
   line-height: 22px;
   margin-bottom: 40px;
+  text-align: justify;
+  text-justify: inter-word;
+  max-width: 483px;
+}
+
+.MaxWidth {
+  max-width: 420px;
 }
 
 .Hero p span {

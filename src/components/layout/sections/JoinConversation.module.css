@@ -10,6 +10,7 @@
   height: 420px;
   width: 50%;
   margin-right: 120px;
+  border-radius: 8px;
 }
 
 .JoinConversation div {
@@ -47,24 +48,26 @@
 .AppScreenshots > div {
   display: flex;
   margin-bottom: 32px;
-  column-gap: 32px;
+  column-gap: 40px;
   align-items: center;
   position: relative;
-  padding-bottom: 64px;
+  padding-bottom: 160px;
 }
 
 .AppScreenshots img {
   border: 3px solid black;
-  border-radius: 8px;
+  width: 300px;
+  border-radius: 4px;
   margin-right: 0;
   object-fit: contain;
-  height: 420px;
+  height: 460px;
+  box-shadow: 10px 10px 0px var(--secondary-color-light);
 }
 
 .AppLogos {
   margin-top: 40px;
   position: absolute;
-  bottom: -40px;
+  bottom: 40px;
   right: 0;
   z-index: 1;
   display: flex;
@@ -74,4 +77,6 @@
 .AppLogos img {
   height: auto;
   border: none;
+  box-shadow: none;
+  width: auto;
 }

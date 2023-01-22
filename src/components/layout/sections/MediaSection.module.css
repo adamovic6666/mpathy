@@ -8,11 +8,19 @@
 .Image {
   width: 50%;
   object-fit: cover;
-  height: 420px;
+  height: 440px;
+  border-radius: 8px;
+}
+
+.MediaSectionWrapper p {
+  font-size: 18px;
+  line-height: 20px;
 }
 
 .MediaSectionWrapper iframe {
   margin-bottom: 80px;
+  border-radius: 8px;
+  border: 3px solid black;
 }
 
 .MediaSectionWrapper > div {

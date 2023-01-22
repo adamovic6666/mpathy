@@ -27,13 +27,21 @@ const Hero = ({ title, image, description }) => {
       </div>
       <div>
         <h1>{title}</h1>
-        <div dangerouslySetInnerHTML={{ __html: description }} />
+        <div
+          className={isMainPage || isJoinUsPage ? classes.MaxWidth : ""}
+          dangerouslySetInnerHTML={{ __html: description }}
+        />
         {(isMainPage || isJoinUsPage) && (
           <div className={classes.LinksWrapper}>
             {!isJoinUsPage && (
               <Link href="https://www.google.com/">Donate</Link>
             )}
-            <Link href="https://www.google.com/">Join us</Link>
+            <Link
+              type={isMainPage && "transparent"}
+              href="https://www.google.com/"
+            >
+              Join us
+            </Link>
           </div>
         )}
       </div>

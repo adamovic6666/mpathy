@@ -34,6 +34,8 @@
 .CrewList li p span:nth-of-type(2) {
   font-weight: 600;
   display: block;
+  margin-top: 8px;
+  font-size: 16px;
 }
 
 .CrewList li h4 {
@@ -47,4 +49,5 @@
   max-width: 264px;
   color: black;
   opacity: 0.75;
+  font-size: 18px;
 }
