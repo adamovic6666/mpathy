@@ -34,7 +34,7 @@
 .AppScreenshots {
   display: flex;
   margin-bottom: 32px;
-  column-gap: 32px;
+  column-gap: 40px;
   align-items: center;
   flex-direction: column;
 }
@@ -47,10 +47,10 @@
 .AppScreenshots > div {
   display: flex;
   margin-bottom: 32px;
-  column-gap: 32px;
+  column-gap: 40px;
   align-items: center;
   position: relative;
-  padding-bottom: 64px;
+  padding-bottom: 160px;
 }
 
 .AppScreenshots img {
@@ -58,13 +58,14 @@
   border-radius: 8px;
   margin-right: 0;
   object-fit: contain;
-  height: 420px;
+  height: 440px;
+  width: 300px;
 }
 
 .AppLogos {
   margin-top: 40px;
   position: absolute;
-  bottom: -40px;
+  bottom: 40px;
   right: 0;
   z-index: 1;
   display: flex;
@@ -74,4 +75,5 @@
 .AppLogos img {
   height: auto;
   border: none;
+  width: auto;
 }
