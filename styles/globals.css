@@ -92,6 +92,172 @@ p {
 .hamburger-react > div {
   background-color: var(--text-color-dark) !important;
 }
+/* 
+#Layer_x0020_1 .fil3 {
+  fill: black;
+  fill-rule: nonzero;
+}
+#Layer_x0020_1 .fil14 {
+  fill: black;
+  fill-rule: nonzero;
+}
+#Layer_x0020_1 .fil12 {
+  fill: #1a1a1a;
+  fill-rule: nonzero;
+}
+#Layer_x0020_1 .fil11 {
+  fill: #22a7f0;
+  fill-rule: nonzero;
+}
+#Layer_x0020_1 .fil2 {
+  fill: #371a45;
+  fill-rule: nonzero;
+}
+#Layer_x0020_1 .fil10 {
+  fill: #857b8c;
+  fill-rule: nonzero;
+}
+#Layer_x0020_1 .fil9 {
+  fill: #8c7b94;
+  fill-rule: nonzero;
+}
+#Layer_x0020_1 .fil13 {
+  fill: #999999;
+  fill-rule: nonzero;
+}
+#Layer_x0020_1 .fil18 {
+  fill: #a26dbd;
+  fill-rule: nonzero;
+}
+#Layer_x0020_1 .fil5 {
+  fill: #afafb2;
+  fill-rule: nonzero;
+}
+#Layer_x0020_1 .fil16 {
+  fill: #b51953;
+  fill-rule: nonzero;
+}
+#Layer_x0020_1 .fil4 {
+  fill: #b9afbe;
+  fill-rule: nonzero;
+}
+#Layer_x0020_1 .fil7 {
+  fill: #c3bac7;
+  fill-rule: nonzero;
+}
+#Layer_x0020_1 .fil8 {
+  fill: #e7e7e8;
+  fill-rule: nonzero;
+}
+#Layer_x0020_1 .fil6 {
+  fill: #f4e1ff;
+  fill-rule: nonzero;
+}
+#Layer_x0020_1 .fil15 {
+  fill: #f9195a;
+  fill-rule: nonzero;
+}
+#Layer_x0020_1 .fil17 {
+  fill: #fc8cad;
+  fill-rule: nonzero;
+}
+#Layer_x0020_1 .fil1 {
+  fill: white;
+  fill-rule: nonzero;
+}
+#Layer_x0020_1 .fil0 {
+  fill: black;
+  fill-rule: nonzero;
+  fill-opacity: 0.14902;
+}
+.fil12 {
+  fill: black;
+}
+.fil0 {
+  fill: #02a9fd;
+}
+.fil14 {
+  fill: #1176bb;
+}
+.fil2 {
+  fill: #1a1a1a;
+}
+.fil10 {
+  fill: #5c0502;
+}
+.fil26 {
+  fill: #999999;
+}
+.fil23 {
+  fill: #9addff;
+}
+#_2526354620016 .fil13 {
+  fill: #ad1b2f;
+}
+#_2526354620016 .fil11 {
+  fill: #cbc3cf;
+}
+#_2526354620016 .fil4 {
+  fill: #e78c12;
+}
+#_2526354620016 .fil1 {
+  fill: #ea1c24;
+}
+#_2526354620016 .fil24 {
+  fill: #f68a8e;
+}
+#_2526354620016 .fil3 {
+  fill: white;
+}
+.Layer_x0020_1 .fil19 {
+  fill: #411535;
+  fill-rule: nonzero;
+}
+.Layer_x0020_1 .fil15 {
+  fill: #9578c0;
+  fill-rule: nonzero;
+}
+.Layer_x0020_1 .fil22 {
+  fill: #a89aae;
+  fill-rule: nonzero;
+}
+.Layer_x0020_1 .fil16 {
+  fill: #c46a0e;
+  fill-rule: nonzero;
+}
+.Layer_x0020_1 .fil5 {
+  fill: #e78c12;
+  fill-rule: nonzero;
+}
+.Layer_x0020_1 .fil25 {
+  fill: #f05e64;
+  fill-rule: nonzero;
+}
+.Layer_x0020_1 .fil20 {
+  fill: #f4cc97;
+  fill-rule: nonzero;
+}
+.Layer_x0020_1 .fil17 {
+  fill: url(#id0);
+}
+.Layer_x0020_1 .fil9 {
+  fill: url(#id1);
+}
+.Layer_x0020_1 .fil18 {
+  fill: url(#id2);
+}
+.Layer_x0020_1 .fil8 {
+  fill: url(#id3);
+}
+.Layer_x0020_1 .fil6 {
+  fill: url(#id4);
+}
+.Layer_x0020_1 .fil21 {
+  fill: url(#id5);
+}
+.Layer_x0020_1 .fil7 {
+  fill: url(#id6);
+} */
 
 @media screen and (min-width: 768px) {
   .container {

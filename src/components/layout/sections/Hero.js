@@ -2,8 +2,10 @@ import classes from "./Hero.module.css";
 import Image from "next/image";
 import { useRouter } from "next/router";
 import Link from "../../ui/Link";
+import HeroSvg from "../../svgs/HeroSvg";
+import JoinUsSvg from "../../svgs/JoinUsSvg";
 
-const Hero = ({ title, image, description }) => {
+const Hero = ({ title, description, image }) => {
   const { pathname } = useRouter();
   const isMainPage = pathname === "/";
   const isOurMissionPage = pathname === "/our-mission";
@@ -16,6 +18,8 @@ const Hero = ({ title, image, description }) => {
       }`}
     >
       <div>
+        {/* {isMainPage && <HeroSvg />}
+        {isJoinUsPage && <JoinUsSvg />} */}
         <Image
           src={image}
           width={300}
@@ -26,7 +30,7 @@ const Hero = ({ title, image, description }) => {
         />
       </div>
       <div>
-        <h1>{title}</h1>
+        <div dangerouslySetInnerHTML={{ __html: title }}></div>
         <div
           className={isMainPage || isJoinUsPage ? classes.MaxWidth : ""}
           dangerouslySetInnerHTML={{ __html: description }}

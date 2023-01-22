@@ -47,6 +47,10 @@
   margin-bottom: 16px;
 }
 
+.Hero h1 span {
+  color: white;
+}
+
 .Hero p {
   font-weight: 400;
   font-size: 18px;
@@ -62,6 +66,7 @@
 .Hero p span {
   color: white;
   font-weight: 600;
+  text-transform: lowercase;
 }
 
 .Hero p:not(:last-of-type) {

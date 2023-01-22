@@ -25,6 +25,15 @@ const JoinConversation = () => {
         <h2>Our APP</h2>
         <div>
           <Image
+            src="/assets/mockup-1.png"
+            width={1280}
+            height={720}
+            alt="screen-image"
+            className={classes.JoinConversationImage}
+          />
+        </div>
+        <div>
+          <Image
             src="/assets/screen-1.png"
             width={1280}
             height={720}
@@ -45,13 +54,7 @@ const JoinConversation = () => {
             alt="screen-image"
             className={classes.JoinConversationImage}
           />
-          <Image
-            src="/assets/screen-4.png"
-            width={1280}
-            height={720}
-            alt="screen-image"
-            className={classes.JoinConversationImage}
-          />
+
           <div className={classes.AppLogos}>
             <Image
               src="/assets/mpathy-youth-logo.png"

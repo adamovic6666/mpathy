@@ -1,14 +1,15 @@
 .SocialMedia {
   position: absolute;
-  left: 50%;
+  left: calc(100% - 276px);
   top: 50%;
   transform: translate(-50%, -50%);
   display: flex;
   align-items: center;
   gap: 16px;
+  filter: invert(1);
 }
 
 .SocialMedia svg {
-  width: 36px;
-  height: 36px;
+  width: 28px;
+  height: 28px;
 }
