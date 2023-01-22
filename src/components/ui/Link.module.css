@@ -2,13 +2,12 @@
   font-weight: 600;
   font-size: 20px;
   line-height: 23px;
-  font-family: "Roboto-black";
   color: #000000;
   padding: 10px 32px;
   line-height: 120%;
   background: #e1ebee;
   border: 3px solid #000000;
-  border-radius: 20px;
+  border-radius: 100px;
 }
 
 .Transparent {
