@@ -8,13 +8,33 @@ import Title from "../../svgs/mpathy-title.svg";
 import OurMissionSvg from "../../svgs/mpathy-our-mission.svg";
 import OurCrewSvg from "../../svgs/mpathy-our-crew.svg";
 import MouseScroll from "../../ui/MouseScroll";
+import { useEffect, useState } from "react";
 
-const Hero = ({ title, description, image }) => {
+const Hero = ({ title, description }) => {
   const { pathname } = useRouter();
+  const [removeScroller, setRemoveScroller] = useState(false);
   const isMainPage = pathname === "/";
   const isOurMissionPage = pathname === "/our-mission";
   const isJoinUsPage = pathname === "/join-us";
   const isOurCrewPage = pathname === "/our-crew";
+
+  useEffect(() => {
+    const handleScroll = (ev) => {
+      let height = screen.height;
+      let top = window.pageYOffset;
+      if (top > screen.height / 4) {
+        console.log("ulazi ovde");
+        setRemoveScroller(true);
+        return;
+      }
+      setRemoveScroller(false);
+    };
+
+    window.addEventListener("scroll", handleScroll);
+    return () => {
+      window.removeEventListener("scroll", handleScroll);
+    };
+  }, []);
 
   return (
     <div
@@ -53,7 +73,7 @@ const Hero = ({ title, description, image }) => {
           </div>
         )}
       </div>
-      {!isMainPage && <MouseScroll />}
+      {!isMainPage && <MouseScroll removeScroller={removeScroller} />}
     </div>
   );
 };

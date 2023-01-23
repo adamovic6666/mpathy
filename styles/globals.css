@@ -101,6 +101,10 @@ p {
   color: var(--primary-color) !important;
 }
 
+.remove-scroll {
+  opacity: 0 !important;
+}
+
 .mouse_scroll {
   display: block;
   margin: 0 auto;
@@ -111,6 +115,8 @@ p {
   left: 50%;
   bottom: -48px;
   transform: translateX(-50%) scale(0.9);
+  opacity: 1;
+  transition: all 0.5s ease-in-out;
 }
 
 .m_scroll_arrows {

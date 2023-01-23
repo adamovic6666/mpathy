@@ -1,6 +1,7 @@
-const MouseSCcroll = () => {
+const MouseSCcroll = ({ removeScroller }) => {
+  console.log(removeScroller);
   return (
-    <div className="mouse_scroll">
+    <div className={` mouse_scroll ${removeScroller ? "remove-scroll" : ""} `}>
       <div className="mouse">
         <div className="wheel"></div>
       </div>
