@@ -51,7 +51,7 @@
   column-gap: 40px;
   align-items: center;
   position: relative;
-  padding-bottom: 160px;
+  padding-bottom: 200px;
 }
 
 .AppScreenshots img {
@@ -66,17 +66,18 @@
 .AppLogos {
   margin-top: 40px;
   position: absolute;
-  bottom: 40px;
-  right: 0;
+  bottom: 24px;
+  left: 50%;
+  transform: translateX(-50%);
   z-index: 1;
   display: flex;
   gap: 32px;
 }
 
-.AppLogos img {
-  height: auto;
+.AppLogos svg {
+  height: 58px;
   border: none;
-  width: auto;
+  width: 125px;
 }
 
 .AppScreenshots > div:nth-of-type(1) img {

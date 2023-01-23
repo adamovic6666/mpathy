@@ -1,6 +1,9 @@
 import Image from "next/image";
 import Link from "../../ui/Link";
 import classes from "./JoinConversation.module.css";
+import MpathyYouth from "../../../components/svgs/mpathy-youth.svg";
+import MpathyFamily from "../../../components/svgs/mpathy-family.svg";
+
 const JoinConversation = () => {
   return (
     <div className="container">
@@ -56,24 +59,8 @@ const JoinConversation = () => {
           />
 
           <div className={classes.AppLogos}>
-            <Image
-              src="/assets/mpathy-youth-logo.png"
-              width={105}
-              height={48}
-              alt="app-logo"
-            />
-            <Image
-              src="/assets/mpathy-family-logo.png"
-              width={105}
-              height={48}
-              alt="app-logo"
-            />
-            {/* <Image
-            src="/assets/mobile-mockup.png"
-            width={313}
-            height={522}
-            alt="app-logo"
-          /> */}
+            <MpathyYouth />
+            <MpathyFamily />
           </div>
         </div>
       </div>

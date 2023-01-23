@@ -5,6 +5,11 @@
   line-height: 18px;
 }
 
+.Logo svg {
+  width: 64px;
+  height: 64px;
+}
+
 @media only screen and (min-width: 768px) {
   .Logo {
     font-size: 32px;

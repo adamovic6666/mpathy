@@ -63,7 +63,9 @@ const Header = () => {
       <header
         className={`${classes.Header} ${isOpen ? classes.OpenNav : ""}  ${
           classes.OnScroll
-        } ${headerIsVisible ? classes.Open : ""}`}
+        } ${headerIsVisible ? classes.Open : ""} ${
+          headerIsVisible ? "visible-header" : ""
+        }`}
       >
         <div className={`${classes.NavWrapper} container`}>
           <Logo isWhite={false} />

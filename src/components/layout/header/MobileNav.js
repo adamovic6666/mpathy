@@ -10,7 +10,7 @@ const MobileNav = ({ setOpen, isOpen }) => {
       <nav className={classes.Nav}>
         <ul className={classes.NavList}>
           {NAV_LINKS.map(({ name, id, href }) => (
-            <NavLink href={`#${href}`} key={id} setOpen={setOpen}>
+            <NavLink href={`${href}`} key={id} setOpen={setOpen}>
               {name}
             </NavLink>
           ))}

@@ -37,6 +37,15 @@
   display: block;
 }
 
+.FooterLeft {
+  position: relative;
+}
+
+.FooterRight {
+  display: flex;
+  column-gap: 40px;
+}
+
 @media only screen and (min-width: 768px) {
 }
 
