@@ -6,6 +6,7 @@
   min-height: auto;
   min-height: calc(100vh - 70.39px);
   padding-top: 100px;
+  position: relative;
 }
 
 .Hero > div {

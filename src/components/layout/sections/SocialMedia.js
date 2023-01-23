@@ -1,9 +1,9 @@
-import Linkedin from "../../svgs/Linkedin";
-import Facebook from "../../svgs/Facebook";
-import Youtube from "../../svgs/Youtube";
-import Mail from "../../svgs/Mail";
+import Linkedin from "../../svgs/linkeding.svg";
+import Facebook from "../../svgs/facebook.svg";
+import Youtube from "../../svgs/youtube.svg";
+import Mail from "../../svgs/emal.svg";
 import classes from "./SocialMedia.module.css";
-import Instagram from "../../svgs/Instagram";
+import Instagram from "../../svgs/instagram.svg";
 
 const SocialMedia = () => {
   return (

@@ -7,6 +7,7 @@ import JoinUsSvg from "../../svgs/mpathy-join-us.svg";
 import Title from "../../svgs/mpathy-title.svg";
 import OurMissionSvg from "../../svgs/mpathy-our-mission.svg";
 import OurCrewSvg from "../../svgs/mpathy-our-crew.svg";
+import MouseScroll from "../../ui/MouseScroll";
 
 const Hero = ({ title, description, image }) => {
   const { pathname } = useRouter();
@@ -52,6 +53,7 @@ const Hero = ({ title, description, image }) => {
           </div>
         )}
       </div>
+      {!isMainPage && <MouseScroll />}
     </div>
   );
 };
