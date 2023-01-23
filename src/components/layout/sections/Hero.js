@@ -41,12 +41,14 @@ const Hero = ({ title, description, image }) => {
             {!isJoinUsPage && (
               <Link href="https://www.google.com/">Donate</Link>
             )}
-            <Link
-              type={isMainPage && "transparent"}
-              href="https://www.google.com/"
-            >
-              Join us
-            </Link>
+            {isMainPage && (
+              <Link
+                type={isMainPage && "transparent"}
+                href="https://www.google.com/"
+              >
+                Join us
+              </Link>
+            )}
           </div>
         )}
       </div>
