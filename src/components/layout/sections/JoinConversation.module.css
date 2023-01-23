@@ -86,3 +86,19 @@
 .AppScreenshots > div:nth-of-type(2) img {
   transform: scale(1.1);
 }
+
+.JoinConversation > div a {
+  background-color: white;
+  font-family: "Roboto-black";
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 23px;
+  color: #000000;
+  padding: 10px 32px;
+  line-height: 120%;
+  border: 3px solid #000000;
+  border-radius: 18px;
+  letter-spacing: 0.05px;
+  cursor: pointer;
+  z-index: 2;
+}

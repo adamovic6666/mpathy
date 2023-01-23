@@ -21,7 +21,12 @@ const JoinConversation = () => {
             support, like and share our Social Media content, join the
             conversation. Share your thoughts and ideas.
           </p>
-          <Link href="/">Donate</Link>
+          <a
+            href="https://www.paypal.com/donate/?hosted_button_id=8XD94W7RRUQMC"
+            target="_blank"
+          >
+            Donate
+          </a>
         </div>
       </div>
       <div className={classes.AppScreenshots}>

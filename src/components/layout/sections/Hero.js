@@ -1,5 +1,4 @@
 import classes from "./Hero.module.css";
-import Image from "next/image";
 import { useRouter } from "next/router";
 import Link from "../../ui/Link";
 import HeroSvg from "../../svgs/mpathy-hero.svg";
@@ -60,13 +59,15 @@ const Hero = ({ title, description }) => {
         {(isMainPage || isJoinUsPage) && (
           <div className={classes.LinksWrapper}>
             {!isJoinUsPage && (
-              <Link href="https://www.google.com/">Donate</Link>
+              <a
+                href="https://www.paypal.com/donate/?hosted_button_id=8XD94W7RRUQMC"
+                target="_blank"
+              >
+                Donate
+              </a>
             )}
             {isMainPage && (
-              <Link
-                type={isMainPage && "transparent"}
-                href="https://www.google.com/"
-              >
+              <Link type={isMainPage && "transparent"} href="/join-us">
                 Join us
               </Link>
             )}
