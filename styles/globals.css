@@ -90,7 +90,7 @@ p {
 }
 
 .hamburger-react > div {
-  background-color: var(--text-color-dark) !important;
+  background-color: var(--primary-color) !important;
 }
 
 .active-link a {

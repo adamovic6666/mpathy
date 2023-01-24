@@ -1,24 +1,14 @@
 .Hero {
   display: flex;
   justify-content: center;
+  flex-direction: column;
   align-items: center;
-  padding: 0px 150px 0px;
-  min-height: auto;
-  min-height: calc(100vh - 70.39px);
-  padding-top: 100px;
+  padding-top: 160px;
   position: relative;
 }
 
 .Hero > div {
-  width: 50%;
-}
-
-.Hero > div:nth-of-type(1) {
-  padding-right: 64px;
-}
-
-.Hero > div:nth-of-type(2) {
-  padding-left: 64px;
+  width: 100%;
 }
 
 .HeroSvgJoinUsPosition svg {
@@ -48,6 +38,7 @@
 
 .Hero svg {
   margin-bottom: 16px;
+  max-width: 90vw;
 }
 
 .Hero h1 span {
@@ -60,10 +51,6 @@
   line-height: 22px;
   margin-bottom: 40px;
   max-width: 483px;
-}
-
-.MaxWidth {
-  max-width: 420px;
 }
 
 .Hero p span {
@@ -116,4 +103,29 @@
   letter-spacing: 0.05px;
   cursor: pointer;
   position: relative;
+}
+
+@media only screen and (min-width: 768px) {
+  .Hero {
+    flex-direction: row;
+    padding: 0px 150px 0px;
+    min-height: auto;
+    min-height: calc(100vh - 70.39px);
+    padding-top: 100px;
+  }
+  .Hero > div {
+    width: 50%;
+  }
+
+  .MaxWidth {
+    max-width: 420px;
+  }
+
+  .Hero > div:nth-of-type(1) {
+    padding-right: 64px;
+  }
+
+  .Hero > div:nth-of-type(2) {
+    padding-left: 64px;
+  }
 }

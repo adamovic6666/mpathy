@@ -15,14 +15,13 @@ const Hero = ({ title, description }) => {
   const isMainPage = pathname === "/";
   const isOurMissionPage = pathname === "/our-mission";
   const isJoinUsPage = pathname === "/join-us";
-  const isOurCrewPage = pathname === "/our-crew";
+  const isOurCrewPage = pathname === "/our-team";
 
   useEffect(() => {
-    const handleScroll = (ev) => {
+    const handleScroll = () => {
       let height = screen.height;
       let top = window.pageYOffset;
-      if (top > screen.height / 4) {
-        console.log("ulazi ovde");
+      if (top > height / 4) {
         setRemoveScroller(true);
         return;
       }

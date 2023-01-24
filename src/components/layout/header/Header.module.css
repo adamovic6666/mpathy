@@ -42,16 +42,16 @@
 }
 
 .OpenNav .NavWrapper > div span:nth-of-type(2) {
-  color: var(--text-color-dark);
+  color: white;
   transition: all 0.3s ease-in-out;
 }
 
 .OpenNav .NavWrapper > div:last-of-type > div {
-  background-color: var(--text-color-dark) !important;
+  background-color: white !important;
 }
 
 .PrivacyHeader .NavWrapper > div:last-of-type > div {
-  background-color: var(--text-color-dark) !important;
+  background-color: white !important;
 }
 
 .Close {

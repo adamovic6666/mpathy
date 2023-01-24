@@ -3,6 +3,7 @@
   z-index: 5;
   font-size: 20px;
   line-height: 18px;
+  transition: all 0.3s ease-in-out;
 }
 
 .Logo svg {

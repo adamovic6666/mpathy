@@ -19,14 +19,6 @@
   align-items: center;
   position: relative;
 }
-.JoinConversation p {
-  max-width: 480px;
-  font-size: 24px;
-  color: white;
-  line-height: 120%;
-  text-align: center;
-  margin-bottom: 32px;
-}
 
 .JoinConversation a {
   width: fit-content;
@@ -51,7 +43,6 @@
   column-gap: 40px;
   align-items: center;
   position: relative;
-  padding-bottom: 200px;
 }
 
 .AppScreenshots img {
@@ -64,14 +55,10 @@
 }
 
 .AppLogos {
-  margin-top: 40px;
-  position: absolute;
-  bottom: 24px;
-  left: 50%;
-  transform: translateX(-50%);
+  margin-top: 0px;
   z-index: 1;
   display: flex;
-  gap: 48px;
+  flex-direction: column;
 }
 
 .AppLogos svg {
@@ -81,7 +68,8 @@
 }
 
 .AppScreenshots > div:nth-of-type(1) img {
-  transform: scale(3.5);
+  transform: scale(3.5) translateY(24px);
+  margin-bottom: 224px;
 }
 .AppScreenshots > div:nth-of-type(2) img {
   transform: scale(1.1);
@@ -101,4 +89,25 @@
   letter-spacing: 0.05px;
   cursor: pointer;
   z-index: 2;
+}
+
+.AppScreenshots svg:nth-of-type(1) {
+  width: 240px;
+  height: 240px;
+}
+
+.AppScreenshots p:nth-of-type(1),
+.JoinConversation p {
+  max-width: 480px;
+  font-size: 24px;
+  color: white;
+  line-height: 120%;
+  text-align: center;
+  margin-bottom: 32px;
+}
+
+.AppScreenshots p:nth-of-type(1) {
+  font-size: 30px;
+  max-width: 600px;
+  margin-top: -24px;
 }

@@ -7,13 +7,13 @@ const Crew = () => {
   const advisoryBoard = OUR_CREW.slice(3, 13);
   return (
     <div className={`${classes.CrewWrapper} container`}>
-      <h2>Board of Directors Mpathy Apps CIC</h2>
+      <h2>Board of Directors</h2>
       <ul className={classes.CrewList}>
         {boradOfDirectos.map((member, index) => {
           return <CrewMember key={index} member={member} />;
         })}
       </ul>
-      <h2>Advisory Board Mpathy Apps CIC</h2>
+      <h2>Advisory Team</h2>
       <ul className={classes.CrewList}>
         {advisoryBoard.map((member, index) => {
           return <CrewMember key={index} member={member} />;

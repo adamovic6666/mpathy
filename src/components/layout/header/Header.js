@@ -68,7 +68,7 @@ const Header = () => {
         }`}
       >
         <div className={`${classes.NavWrapper} container`}>
-          <Logo isWhite={false} />
+          <Logo isWhite={false} isOpen={isOpen} />
           <nav className={classes.Nav}>
             <ul className={classes.NavList}>
               {NAV_LINKS.map(({ name, id, href }) => (

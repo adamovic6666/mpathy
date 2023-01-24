@@ -17,8 +17,8 @@ const JoinConversation = () => {
         />
         <div>
           <p>
-            There are so many ways you can help – make a donation if you can,
-            support, like and share our Social Media content, join the
+            There are so many ways you can help – make a donation if you can. Or
+            support, like and share our social media content. Join the
             conversation. Share your thoughts and ideas.
           </p>
           <a
@@ -30,7 +30,11 @@ const JoinConversation = () => {
         </div>
       </div>
       <div className={classes.AppScreenshots}>
-        <h2>Our APP</h2>
+        <MpathyYouth />
+        <p>
+          With your help, we can turn great ideas into a great app and help
+          millions of kids avoid a downward spiral to medica2on.
+        </p>
         <div>
           <Image
             src="/assets/mockup-1.png"
@@ -62,11 +66,14 @@ const JoinConversation = () => {
             alt="screen-image"
             className={classes.JoinConversationImage}
           />
-
-          <div className={classes.AppLogos}>
-            <MpathyYouth />
-            <MpathyFamily />
-          </div>
+        </div>
+        <div className={classes.AppLogos}>
+          <MpathyFamily />
+          <p>
+            Our second app will be to help families and carers dealing with
+            mental health. All extra funds will go to research and development
+            for this vital extra application.
+          </p>
         </div>
       </div>
     </div>

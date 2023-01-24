@@ -1,4 +1,5 @@
 import { NAV_LINKS } from "../../../data/data";
+import Logo from "../../ui/Logo";
 import NavLink from "../../ui/Navlink";
 import classes from "./MobileNav.module.css";
 // import LinkedIn from "../../svgs/LinkedIn";
@@ -7,6 +8,7 @@ import classes from "./MobileNav.module.css";
 const MobileNav = ({ setOpen, isOpen }) => {
   return (
     <div className={`${classes.MobileNav} ${isOpen ? classes.Open : ""}`}>
+      <Logo isWhite={true} />
       <nav className={classes.Nav}>
         <ul className={classes.NavList}>
           {NAV_LINKS.map(({ name, id, href }) => (
@@ -16,14 +18,14 @@ const MobileNav = ({ setOpen, isOpen }) => {
           ))}
         </ul>
       </nav>
-      <div className={classes.LinksWrapper}>
+      {/* <div className={classes.LinksWrapper}>
         <a
           href="https://www.linkedin.com/company/toros-advisory/"
           target="_blank"
           rel="noreferrer"
         ></a>
         <a href="mailto:info@torosadvisory.com"></a>
-      </div>
+      </div> */}
     </div>
   );
 };

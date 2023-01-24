@@ -25,33 +25,33 @@ export const OUR_CREW = [
     description:
       "Experienced Chief Finance Officer  with special focus on startups, fundraising  and charity operations",
     imgSrc: "/assets/mike-millar.png",
-    position: "Finance Lead",
+    position: "",
   },
   {
     name: "Aboyowa John Akpenyi",
     description:
-      "A rigorous and professional programmer with  a passion for problem solving and learning. Experienced in developing IOS/Android apps. Ex high school teacher. ",
+      "Ex-High School Teacher. Professional programmer and problem solver. Experienced in IOS/Android App development.",
     imgSrc: "/assets/aboyowa-john-akpenyi.png",
-    position: "Technical Lead",
+    position: "",
   },
   {
     name: "Linus Goh",
     description:
       "Marketing graduate, passionate about technology, marketing, social enterprise and consultancy. Fluent in English and Mandarin. ",
     imgSrc: "/assets/linus-goh.png",
-    position: "Marketing Lead",
+    position: "",
   },
   {
     name: "Aleksandar Sovrlić ",
-    description: "Design and marketing communications specialist.",
+    description:
+      "Design and marketing communications specialist. Creative Director.",
     imgSrc: "/assets/aleksandar-sovrlic.png",
-    position:
-      "Creative Director, Brand Management and Social Media strategy. Lead.",
+    position: "",
   },
   {
     name: "Graham Carter ",
     description:
-      "MA in Philosophy and Mental Health. Lecturer in Multi-cultural Social Care/Wellbeing and Working with Children & Young People.",
+      "MA in Philosophy and Mental Health. Lecturer in Multi-cultural Social Care, Working with Children & Young People.",
     imgSrc: "/assets/graham-carter.png",
     position: "",
   },

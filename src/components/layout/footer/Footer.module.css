@@ -1,6 +1,7 @@
 .Footer {
   padding: 24px 0;
   overflow: hidden;
+  min-height: 340px;
 }
 
 .Footer > div {
@@ -8,7 +9,6 @@
   z-index: 0;
   display: flex;
   flex-direction: column;
-  align-items: center;
   justify-content: space-between;
   gap: 40px;
 }
@@ -43,7 +43,10 @@
 
 .FooterRight {
   display: flex;
+  flex-direction: column;
   column-gap: 40px;
+  row-gap: 8px;
+  align-items: center;
 }
 
 @media only screen and (min-width: 768px) {
@@ -53,6 +56,16 @@
   .Footer p {
     line-height: 120%;
     text-align: left;
+  }
+
+  .Footer {
+    min-height: 0px;
+  }
+
+  .FooterRight {
+    flex-direction: row;
+    align-items: unset;
+    row-gap: 0px;
   }
 }
 
