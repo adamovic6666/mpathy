@@ -1,6 +1,7 @@
 import { NAV_LINKS } from "../../../data/data";
 import Logo from "../../ui/Logo";
 import NavLink from "../../ui/Navlink";
+import SocialMedia from "../sections/SocialMedia";
 import classes from "./MobileNav.module.css";
 // import LinkedIn from "../../svgs/LinkedIn";
 // import Mail from "../../svgs/Mail";
@@ -18,14 +19,9 @@ const MobileNav = ({ setOpen, isOpen }) => {
           ))}
         </ul>
       </nav>
-      {/* <div className={classes.LinksWrapper}>
-        <a
-          href="https://www.linkedin.com/company/toros-advisory/"
-          target="_blank"
-          rel="noreferrer"
-        ></a>
-        <a href="mailto:info@torosadvisory.com"></a>
-      </div> */}
+      <div className={classes.LinksWrapper}>
+        <SocialMedia />
+      </div>
     </div>
   );
 };

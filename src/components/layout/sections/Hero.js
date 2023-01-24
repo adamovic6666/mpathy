@@ -49,7 +49,7 @@ const Hero = ({ title, description }) => {
         {isOurCrewPage && <OurCrewSvg />}
       </div>
       <div>
-        {isMainPage && <Title />}{" "}
+        {isMainPage && <Title className={classes.Title} />}
         <div dangerouslySetInnerHTML={{ __html: title }}></div>
         <div
           className={isMainPage || isJoinUsPage ? classes.MaxWidth : ""}
