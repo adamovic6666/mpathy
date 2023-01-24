@@ -4,12 +4,12 @@
   align-items: left;
   justify-content: center;
   gap: 16px;
-  margin-top: 80px;
+  margin-top: 40px;
 }
 
 .SocialMedia svg {
-  width: 28px;
-  height: 28px;
+  width: 34px;
+  height: 34px;
 }
 
 @media only screen and (min-width: 992px) {
@@ -22,5 +22,10 @@
     align-items: center;
     gap: 16px;
     margin-top: 0px;
+  }
+
+  .SocialMedia svg {
+    width: 28px;
+    height: 28px;
   }
 }
