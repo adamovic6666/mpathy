@@ -73,7 +73,7 @@ const Hero = ({ title, description }) => {
           </div>
         )}
       </div>
-      {!isMainPage && <MouseScroll removeScroller={removeScroller} />}
+      <MouseScroll isMainPage={isMainPage} removeScroller={removeScroller} />
     </div>
   );
 };

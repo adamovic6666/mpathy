@@ -1,7 +1,10 @@
-const MouseSCcroll = ({ removeScroller }) => {
-  console.log(removeScroller);
+const MouseSCcroll = ({ removeScroller, isMainPage }) => {
   return (
-    <div className={` mouse_scroll ${removeScroller ? "remove-scroll" : ""} `}>
+    <div
+      className={`mouse_scroll ${isMainPage ? "main-page-scroll" : ""} ${
+        removeScroller ? "remove-scroll" : ""
+      } `}
+    >
       <div className="mouse">
         <div className="wheel"></div>
       </div>
