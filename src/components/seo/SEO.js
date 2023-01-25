@@ -7,9 +7,9 @@ const SEO = ({ metaTitle, metaDescription }) => {
       description={metaDescription}
       openGraph={{
         url: "https://mpathy.vercel.app/",
-        title: "Toros Advisory | Strategic Insights",
+        title: "Mpathy emotional revolution | Social Enterprise",
         description:
-          "Toros Advisory helps organisations enter new markets, form partnerships, and defend deal value.",
+          "Mpathy Apps is a unique Social Enterprise, dedicated to developing and distributing new mobile applications to boost positive emotional resilience and mental health.",
         images: [
           {
             url: "https://mpathy.vercel.app/assets/mpathy-share.jpg",

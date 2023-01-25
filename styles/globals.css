@@ -4,7 +4,8 @@
   font-family: "Roboto-black";
   font-style: normal;
   font-weight: normal;
-  src: local("roboto-black"), url("/fonts/roboto-black.ttf") format("truetype");
+  src: local("roboto-black-v2"),
+    url("/fonts/roboto-black-v2.ttf") format("truetype");
 }
 
 * {
