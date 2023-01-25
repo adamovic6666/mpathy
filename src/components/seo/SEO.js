@@ -12,11 +12,11 @@ const SEO = ({ metaTitle, metaDescription }) => {
           "Toros Advisory helps organisations enter new markets, form partnerships, and defend deal value.",
         images: [
           {
-            url: "https://mpathy.vercel.app/assets/mpathy-share.png",
+            url: "https://mpathy.vercel.app/assets/mpathy-share.jpg",
             width: 800,
             height: 600,
             alt: "og-image",
-            type: "image/png",
+            type: "image/jpg",
           },
         ],
         site_name: "https://mpathy.vercel.app/",
