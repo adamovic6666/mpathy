@@ -2,7 +2,13 @@ import Image from "next/image";
 import classes from "./JoinConversation.module.css";
 import MpathyYouth from "../../../components/svgs/mpathy-youth.svg";
 import MpathyFamily from "../../../components/svgs/mpathy-family.svg";
+import { Swiper, SwiperSlide } from "swiper/react";
+import { Navigation, Pagination, A11y } from "swiper";
 
+import "swiper/css";
+import "swiper/css/navigation";
+import "swiper/css/pagination";
+import "swiper/css/scrollbar";
 const JoinConversation = () => {
   return (
     <div className="container">
@@ -42,6 +48,43 @@ const JoinConversation = () => {
             alt="screen-image"
             className={classes.JoinConversationImage}
           />
+        </div>
+        <div className={classes.Slider}>
+          <Swiper
+            spaceBetween={0}
+            slidesPerView={1}
+            centeredSlides
+            modules={[Navigation, Pagination, A11y]}
+            pagination={{ clickable: true }}
+          >
+            <SwiperSlide>
+              <Image
+                src="/assets/screen-1.png"
+                width={400}
+                height={280}
+                alt="screen-image"
+                className={classes.JoinConversationImage}
+              />
+            </SwiperSlide>
+            <SwiperSlide>
+              <Image
+                src="/assets/screen-2.png"
+                width={400}
+                height={280}
+                alt="screen-image"
+                className={classes.JoinConversationImage}
+              />
+            </SwiperSlide>
+            <SwiperSlide>
+              <Image
+                src="/assets/screen-3.png"
+                width={400}
+                height={280}
+                alt="screen-image"
+                className={classes.JoinConversationImage}
+              />
+            </SwiperSlide>
+          </Swiper>
         </div>
         <div>
           <Image

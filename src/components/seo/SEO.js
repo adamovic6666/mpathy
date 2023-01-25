@@ -2,24 +2,24 @@ import { NextSeo } from "next-seo";
 const SEO = ({ metaTitle, metaDescription }) => {
   return (
     <NextSeo
-      canonical="https://mpathy.com/"
+      canonical="https://mpathy.vercel.app/"
       title={metaTitle}
       description={metaDescription}
       openGraph={{
-        url: "https://mpathy.com/",
+        url: "https://mpathy.vercel.app/",
         title: "Toros Advisory | Strategic Insights",
         description:
           "Toros Advisory helps organisations enter new markets, form partnerships, and defend deal value.",
         images: [
           {
-            url: "https://mpathy.com/share.jpg",
+            url: "https://mpathy.vercel.app/mpathy-share.png",
             width: 800,
             height: 600,
             alt: "og-image",
-            type: "image/jpg",
+            type: "image/png",
           },
         ],
-        site_name: "https://mpathy.com/",
+        site_name: "https://mpathy.vercel.app/",
       }}
     />
   );

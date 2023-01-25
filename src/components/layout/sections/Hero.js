@@ -66,7 +66,7 @@ const Hero = ({ title, description }) => {
               </a>
             )}
             {isMainPage && (
-              <Link type={isMainPage && "transparent"} href="/join-us">
+              <Link type={isMainPage && "transparent"} href="/get-envolved">
                 Join us
               </Link>
             )}
