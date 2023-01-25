@@ -130,6 +130,11 @@
 }
 
 @media only screen and (min-width: 768px) {
+  .AppScreenshots p:nth-of-type(1),
+  .JoinConversation p {
+    font-size: 18px;
+  }
+
   .JoinConversation {
     margin-top: 160px;
   }
@@ -162,7 +167,7 @@
   }
 
   .AppScreenshots p:nth-of-type(1) {
-    font-size: 30px;
+    font-size: 18px;
   }
 
   .AppScreenshots > div:nth-of-type(1) {
@@ -173,5 +178,9 @@
   .AppScreenshots,
   .AppLogos {
     margin-top: 0px;
+  }
+
+  .AppScreenshots p {
+    font-size: 18px;
   }
 }

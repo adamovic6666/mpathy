@@ -14,7 +14,7 @@ const Hero = ({ title, description }) => {
   const [removeScroller, setRemoveScroller] = useState(false);
   const isMainPage = pathname === "/";
   const isOurMissionPage = pathname === "/our-mission";
-  const isJoinUsPage = pathname === "/join-us";
+  const isJoinUsPage = pathname === "/get-involved";
   const isOurCrewPage = pathname === "/our-team";
 
   useEffect(() => {

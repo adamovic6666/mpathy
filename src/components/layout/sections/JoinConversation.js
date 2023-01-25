@@ -32,7 +32,7 @@ const JoinConversation = () => {
         <MpathyYouth />
         <p>
           With your help, we can turn great ideas into a great app and help
-          millions of kids avoid a downward spiral to medica2on.
+          millions of kids avoid a downward spiral to medication.
         </p>
         <div>
           <Image
