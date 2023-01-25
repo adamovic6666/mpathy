@@ -1,6 +1,6 @@
 export const OUR_CREW = [
   {
-    name: "Kelvin Header",
+    name: "Kelvin Heard",
     description:
       "Experienced emotional health therapist with special expertise in childhood trauma and integrated healthcare. ",
     imgSrc: "/assets/kalvin-heard.png",
@@ -23,7 +23,7 @@ export const OUR_CREW = [
   {
     name: "Mike Millar",
     description:
-      "Experienced Chief Finance Officer  with special focus on startups, fundraising  and charity operations",
+      "Experienced Chief Finance Officer  with special focus on startups, fundraising  and charity operations.",
     imgSrc: "/assets/mike-millar.png",
     position: "",
   },
@@ -35,13 +35,6 @@ export const OUR_CREW = [
     position: "",
   },
   {
-    name: "Linus Goh",
-    description:
-      "Marketing graduate, passionate about technology, marketing, social enterprise and consultancy. Fluent in English and Mandarin. ",
-    imgSrc: "/assets/linus-goh.png",
-    position: "",
-  },
-  {
     name: "Aleksandar Sovrlić ",
     description:
       "Design and marketing communications specialist. Creative Director.",
@@ -49,7 +42,15 @@ export const OUR_CREW = [
     position: "",
   },
   {
-    name: "Graham Carter ",
+    name: "Linus Goh",
+    description:
+      "Marketing graduate, passionate about technology, marketing, social enterprise and consultancy. Fluent in English and Mandarin. ",
+    imgSrc: "/assets/linus-goh.png",
+    position: "",
+  },
+
+  {
+    name: "Graham Carter",
     description:
       "MA in Philosophy and Mental Health. Lecturer in Multi-cultural Social Care, Working with Children & Young People.",
     imgSrc: "/assets/graham-carter.png",

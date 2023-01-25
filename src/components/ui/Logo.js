@@ -4,7 +4,6 @@ import LogoWhite from "../../components/svgs/logo.svg";
 import LogoBlue from "../../components/svgs/logo-blue.svg";
 
 const Logo = ({ isWhite, isOpen }) => {
-  console.log(isWhite);
   return (
     <div
       style={{ opacity: isOpen ? "0" : "1" }}

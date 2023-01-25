@@ -1,5 +1,4 @@
 import Image from "next/image";
-import Link from "../../ui/Link";
 import classes from "./JoinConversation.module.css";
 import MpathyYouth from "../../../components/svgs/mpathy-youth.svg";
 import MpathyFamily from "../../../components/svgs/mpathy-family.svg";
@@ -71,8 +70,7 @@ const JoinConversation = () => {
           <MpathyFamily />
           <p>
             Our second app will be to help families and carers dealing with
-            mental health. All extra funds will go to research and development
-            for this vital extra application.
+            mental health.
           </p>
         </div>
       </div>

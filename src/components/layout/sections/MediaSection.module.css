@@ -1,38 +1,78 @@
 .MediaSectionWrapper {
   display: flex;
   flex-direction: column;
-  gap: 120px;
-  margin-top: 180px;
+  gap: 40px;
+  margin-top: 80px;
+}
+
+.ParagraphsWrapper h2 {
+  color: white;
+  margin-bottom: 24px;
 }
 
 .Image {
-  width: 50%;
+  width: 100%;
   object-fit: cover;
-  height: 440px;
+  height: 240px;
   border-radius: 8px;
+  margin-top: 40px;
 }
 
 .MediaSectionWrapper p {
-  font-size: 18px;
+  font-size: 16px;
   line-height: 20px;
 }
 
 .MediaSectionWrapper iframe {
-  margin-bottom: 80px;
+  height: 240px;
+  margin-bottom: 0px;
   border-radius: 8px;
 }
 
 .MediaSectionWrapper > div {
   display: flex;
   align-items: center;
+  flex-direction: column;
 }
 .ParagraphsWrapper {
-  width: 50%;
-  padding-right: 120px;
+  width: 100%;
+  padding-right: 0px;
 }
-.ParagraphsWrapper p {
-  font-size: 18px;
-}
+
 .MediaSectionWrapper > div p:not(:last-of-type) {
-  margin-bottom: 16px;
+  margin-bottom: 12px;
+}
+
+@media only screen and (min-width: 768px) {
+  .MediaSectionWrapper {
+    gap: 120px;
+    margin-top: 180px;
+  }
+
+  .Image {
+    width: 50%;
+    height: 480px;
+  }
+
+  .MediaSectionWrapper > div {
+    flex-direction: row;
+  }
+
+  .ParagraphsWrapper {
+    width: 50%;
+    padding-right: 80px;
+  }
+
+  .MediaSectionWrapper iframe {
+    height: 720px;
+    margin-bottom: 80px;
+  }
+
+  .Image {
+    margin-top: 0px;
+  }
+
+  .MediaSectionWrapper p {
+    font-size: 18px;
+  }
 }

@@ -1,16 +1,18 @@
 .JoinConversation {
   margin-bottom: 80px;
   display: flex;
+  flex-direction: column;
   align-items: center;
-  margin-top: 160px;
+  margin-top: 120px;
 }
 
 .JoinConversationImage {
   object-fit: cover;
-  height: 420px;
-  width: 50%;
-  margin-right: 120px;
+  height: 240px;
+  width: 100%;
+  margin-right: 0px;
   border-radius: 8px;
+  margin-bottom: 40px;
 }
 
 .JoinConversation div {
@@ -26,7 +28,7 @@
 
 .AppScreenshots {
   display: flex;
-  margin-bottom: 32px;
+  margin-bottom: 0px;
   column-gap: 40px;
   align-items: center;
   flex-direction: column;
@@ -39,10 +41,16 @@
 
 .AppScreenshots > div {
   display: flex;
-  margin-bottom: 32px;
+  margin-bottom: 0px;
   column-gap: 40px;
   align-items: center;
   position: relative;
+  flex-direction: column;
+}
+
+.AppScreenshots > div:nth-of-type(1) {
+  overflow: hidden;
+  width: 100%;
 }
 
 .AppScreenshots img {
@@ -50,8 +58,9 @@
   border-radius: 4px;
   margin-right: 0;
   object-fit: contain;
-  height: 440px;
+  height: 340px;
   width: 300px;
+  margin-bottom: 80px;
 }
 
 .AppLogos {
@@ -68,8 +77,8 @@
 }
 
 .AppScreenshots > div:nth-of-type(1) img {
-  transform: scale(3.5) translateY(24px);
-  margin-bottom: 224px;
+  transform: scale(1.7) translateY(0px);
+  margin-bottom: 40px;
 }
 .AppScreenshots > div:nth-of-type(2) img {
   transform: scale(1.1);
@@ -106,8 +115,63 @@
   margin-bottom: 32px;
 }
 
+.AppScreenshots {
+  margin-top: -40px;
+}
+
+.AppLogos {
+  margin-top: -64px;
+}
+
 .AppScreenshots p:nth-of-type(1) {
-  font-size: 30px;
+  font-size: 24px;
   max-width: 600px;
   margin-top: -24px;
+}
+
+@media only screen and (min-width: 768px) {
+  .JoinConversation {
+    margin-top: 160px;
+  }
+
+  .JoinConversation,
+  .AppScreenshots > div:not(:last-of-type) {
+    flex-direction: row;
+  }
+
+  .JoinConversationImage {
+    height: 420px;
+    width: 50%;
+    margin-right: 120px;
+    margin-bottom: 0px;
+  }
+
+  .AppScreenshots > div:nth-of-type(1) img {
+    transform: scale(3.5) translateY(24px);
+    margin-bottom: 224px;
+  }
+
+  .AppScreenshots > div,
+  .AppScreenshots {
+    margin-bottom: 32px;
+  }
+
+  .AppScreenshots img {
+    height: 440px;
+    margin-bottom: 0;
+  }
+
+  .AppScreenshots p:nth-of-type(1) {
+    font-size: 30px;
+  }
+
+  .AppScreenshots > div:nth-of-type(1) {
+    overflow: visible;
+    width: unset;
+  }
+
+  .AppScreenshots,
+  .AppLogos {
+    margin-top: 0px;
+  }
 }

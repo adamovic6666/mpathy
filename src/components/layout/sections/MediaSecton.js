@@ -6,21 +6,23 @@ const MediaSecton = () => {
     <div className={`${classes.MediaSectionWrapper} container`}>
       <div>
         <div className={classes.ParagraphsWrapper}>
+          <h2>Why?</h2>
           <p>
             The causes are complex and interlinked and the cost to society and
             the future of our race is astronomical. Our children deserve better.
           </p>
           <p>
             But simple, powerful solutions are available through the promotion
-            of positive life choices - delivered in a safe and private space
-            through age-specific mobile apps. Mpathy Youth will help children
-            avoid a downward spiral as they approach adolescence.
+            of positive life choices - delivered in a safe and private space via
+            age-specific mobile apps. Mpathy Youth will help children avoid a
+            downward spiral as they approach adolescence.
           </p>
           <p>
             Mpathy’s content will be designed to encourage re-connection with
-            nature and engagement in healthier activities both on and off-line.
-            It will reinforce self-worth and build emotional resilience. In
-            short, we’ll help open doors to a better life.
+            the environment, the natural world and engagement in healthier
+            activities both on and off-line. It will reinforce self-worth and
+            build emotional resilience. In short, we’ll help open doors to a
+            better life.
           </p>
           <p>
             Parents and families also need special support and guidance to help

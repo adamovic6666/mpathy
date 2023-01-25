@@ -31,9 +31,9 @@
   transform: translateX(-100px);
 }
 
-.HeroSvgOurMissionPosition svg {
+/* .HeroSvgOurMissionPosition svg {
   transform: translateX(64px);
-}
+} */
 
 .Hero h1,
 .Hero p {
@@ -45,7 +45,7 @@
 .Hero h1 {
   font-style: normal;
   font-weight: 900;
-  font-size: 81px;
+  font-size: 74px;
   line-height: 100%;
   letter-spacing: 0.025em;
   color: var(--black);
@@ -63,9 +63,22 @@
 
 .Hero p {
   font-weight: 400;
-  font-size: 18px;
+  font-size: 16px;
   line-height: 22px;
   max-width: 483px;
+}
+
+.HeroSvgOurMissionPosition h1,
+.OurCrewHero h1,
+.HeroSvgJoinUsPosition h1 {
+  margin-top: 40px;
+}
+
+.HeroSvgJoinUsPosition svg {
+  height: 300px !important;
+}
+
+.HeroExtendedPadding p {
   margin: -40px auto 40px;
 }
 
@@ -87,6 +100,10 @@
 .HeroExtendedPadding .Image {
   width: 414px;
   height: 507px;
+}
+
+.HeroSvgOurMissionPosition svg {
+  margin: 40px 0;
 }
 
 .Hero .OurMissionImage {
@@ -120,6 +137,14 @@
   letter-spacing: 0.05px;
   cursor: pointer;
   position: relative;
+}
+
+/* .HeroSvgOurMissionPosition p {
+  margin: 0;
+} */
+
+.Hero > div:nth-of-type(2) h1:nth-of-type(2) {
+  display: none;
 }
 
 @media only screen and (min-width: 768px) {
@@ -159,12 +184,30 @@
     width: auto;
   }
 
+  .Hero h1 {
+    font-size: 81px;
+  }
+
   .Hero p {
     margin-top: 0px;
     width: 100%;
+    font-size: 18px;
   }
 
   .LinksWrapper {
     justify-content: flex-start;
+  }
+
+  .HeroSvgOurMissionPosition h1 {
+    margin-top: 0px;
+  }
+
+  .OurCrewHero h1,
+  .HeroSvgJoinUsPosition h1 {
+    margin-top: 0px;
+  }
+
+  .HeroSvgJoinUsPosition svg {
+    height: auto !important;
   }
 }

@@ -37,10 +37,10 @@ const Hero = ({ title, description }) => {
   return (
     <div
       className={`container ${classes.Hero} ${
-        isMainPage ? classes.HeroExtendedPadding : ""
-      } ${isJoinUsPage ? classes.HeroSvgJoinUsPosition : ""} ${
-        isOurMissionPage ? classes.HeroSvgOurMissionPosition : ""
-      }`}
+        isOurCrewPage ? classes.OurCrewHero : ""
+      } ${isMainPage ? classes.HeroExtendedPadding : ""} ${
+        isJoinUsPage ? classes.HeroSvgJoinUsPosition : ""
+      } ${isOurMissionPage ? classes.HeroSvgOurMissionPosition : ""}`}
     >
       <div>
         {isMainPage && <HeroSvg />}
