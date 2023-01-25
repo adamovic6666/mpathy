@@ -1,8 +1,11 @@
 import Hero from "../src/components/layout/sections/Hero";
 import Crew from "../src/components/layout/sections/Crew";
+import SEO from "../src/components/seo/SEO";
 
 const ourCrew = () => (
   <>
+    <SEO metaTitle="Our team" metaDescription="" />
+
     <Hero
       title="<h1>Our crew<h1/>"
       image="/assets/bhody-our-crew.png"

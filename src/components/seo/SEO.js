@@ -3,6 +3,8 @@ const SEO = ({ metaTitle, metaDescription }) => {
   return (
     <NextSeo
       canonical="https://mpathy.com/"
+      title={metaTitle}
+      description={metaDescription}
       openGraph={{
         url: "https://mpathy.com/",
         title: "Toros Advisory | Strategic Insights",

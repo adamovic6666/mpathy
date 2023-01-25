@@ -1,9 +1,11 @@
 import Hero from "../src/components/layout/sections/Hero";
 import JoinConversation from "../src/components/layout/sections/JoinConversation";
+import SEO from "../src/components/seo/SEO";
 
 const joinUs = () => {
   return (
     <>
+      <SEO metaTitle="Join us" metaDescription="" />
       <Hero
         title="<h1>Join us<h1/>"
         image="/assets/join-us-bhody.png"

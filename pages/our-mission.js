@@ -1,8 +1,10 @@
 import Hero from "../src/components/layout/sections/Hero";
 import MediaSecton from "../src/components/layout/sections/MediaSecton";
+import SEO from "../src/components/seo/SEO";
 
 const ourMission = () => (
   <>
+    <SEO metaTitle="Our mission" metaDescription="" />
     <Hero
       title="<h1>Our mission<h1/>"
       image="/assets/our-mission-bhody.png"
