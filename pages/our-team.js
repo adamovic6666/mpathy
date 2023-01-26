@@ -4,7 +4,10 @@ import SEO from "../src/components/seo/SEO";
 
 const ourCrew = () => (
   <>
-    <SEO metaTitle="Our team" metaDescription="" />
+    <SEO
+      metaTitle="Mpathy Apps | Our Team"
+      metaDescription="The Emotional Revolution calls for extraordinary people. People who believe a better world is possible."
+    />
 
     <Hero
       title="<h1>Our team<h1/>"

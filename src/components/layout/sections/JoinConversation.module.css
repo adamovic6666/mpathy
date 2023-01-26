@@ -105,8 +105,8 @@
 }
 
 .AppScreenshots svg:nth-of-type(1) {
-  width: 240px;
-  height: 240px;
+  width: 200px;
+  height: 200px;
 }
 
 .AppScreenshots p:nth-of-type(1),
@@ -198,7 +198,7 @@
     display: block;
   }
 
-  .Slider {
+  .AppScreenshots > div:nth-of-type(2) {
     display: none;
   }
 }

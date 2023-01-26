@@ -4,7 +4,10 @@ import SEO from "../src/components/seo/SEO";
 
 const ourMission = () => (
   <>
-    <SEO metaTitle="Our mission" metaDescription="" />
+    <SEO
+      metaTitle="Mpathy Apps | Our Mission"
+      metaDescription="A generation faces unprecedented crisis in mental health. Mpathy is about preventing millions more damaged lives."
+    />
     <Hero
       title="<h1>Our mission<h1/>"
       image="/assets/our-mission-bhody.png"
