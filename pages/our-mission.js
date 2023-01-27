@@ -5,7 +5,7 @@ import SEO from "../src/components/seo/SEO";
 const ourMission = () => (
   <>
     <SEO
-      metaTitle="Mpathy Apps | Our Mission"
+      metaTitle="Mpathy Apps | Mission of the Emotional Revolution"
       metaDescription="A generation faces unprecedented crisis in mental health. Mpathy is about preventing millions more damaged lives."
     />
     <Hero

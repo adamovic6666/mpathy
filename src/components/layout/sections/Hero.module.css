@@ -139,15 +139,30 @@
   position: relative;
 }
 
-/* .HeroSvgOurMissionPosition p {
-  margin: 0;
-} */
-
 .Hero > div:nth-of-type(2) h1:nth-of-type(2) {
   display: none;
 }
 
 @media only screen and (min-width: 768px) {
+  .HeroExtendedPadding p {
+    margin: 0;
+    margin-bottom: 40px;
+  }
+
+  .HeroExtendedPadding svg {
+    width: 519px;
+  }
+
+  .Hero > div:nth-of-type(1) {
+    margin: 40px 0;
+  }
+
+  .HeroSvgOurMissionPosition svg {
+    margin: 0;
+  }
+}
+
+@media only screen and (min-width: 992px) {
   .Hero {
     flex-direction: row;
     padding: 0px 150px 0px;
@@ -155,6 +170,11 @@
     min-height: calc(100vh - 70.39px);
     padding-top: 100px;
   }
+
+  .Hero > div:nth-of-type(1) {
+    margin: 0px;
+  }
+
   .Hero > div {
     width: 50%;
   }
@@ -209,5 +229,126 @@
 
   .HeroSvgJoinUsPosition svg {
     height: auto !important;
+  }
+}
+
+@media only screen and (min-width: 1024px) {
+  .HeroExtendedPadding > div:nth-of-type(2) svg:nth-of-type(1) {
+    width: 300px;
+    height: auto;
+  }
+
+  .HeroExtendedPadding p {
+    margin-bottom: 16px;
+  }
+
+  .LinksWrapper a:nth-of-type(1) {
+    font-size: 14px;
+    padding: 8px 24px;
+  }
+
+  .Hero p {
+    font-size: 16px;
+  }
+
+  .HeroSvgOurMissionPosition svg {
+    width: 250px;
+  }
+
+  .Hero > div:nth-of-type(2) {
+    padding-left: 0px;
+  }
+
+  .Hero {
+    padding: 100px 50px 0px 150px;
+  }
+
+  .Hero > div:nth-of-type(1) {
+    padding-right: 0px;
+  }
+
+  .Hero > div {
+    width: 80%;
+  }
+
+  .OurCrewHero svg {
+    width: 300px;
+    transform: translateX(-40px) !important;
+  }
+
+  .HeroSvgJoinUsPosition svg {
+    width: 320px;
+    transform: translateX(-60px) !important;
+  }
+
+  .Hero h1 {
+    font-size: 72px;
+  }
+
+  .HeroExtendedPadding svg {
+    width: 300px;
+    margin-right: 80px;
+  }
+}
+
+@media only screen and (min-width: 1440px) {
+  .HeroExtendedPadding > div:nth-of-type(2) svg:nth-of-type(1) {
+    width: 519px;
+  }
+
+  .HeroExtendedPadding > div:nth-of-type(1) svg:nth-of-type(1) {
+    width: 461px;
+  }
+
+  .HeroExtendedPadding p {
+    margin-bottom: 40px;
+  }
+
+  .LinksWrapper a:nth-of-type(1) {
+    font-size: 18px;
+    padding: 10px 32px;
+  }
+
+  .Hero p {
+    font-size: 18px;
+  }
+
+  .HeroSvgOurMissionPosition svg {
+    margin: 40px 0;
+  }
+
+  .HeroSvgOurMissionPosition svg {
+    width: auto;
+  }
+
+  .Hero > div:nth-of-type(2) {
+    padding-left: 64px;
+  }
+
+  .Hero {
+    padding: 100px 150px 0px;
+  }
+
+  .Hero > div:nth-of-type(1) {
+    padding-right: 64px;
+  }
+
+  .Hero > div {
+    width: 50%;
+  }
+
+  .OurCrewHero svg,
+  .HeroSvgJoinUsPosition svg {
+    width: auto;
+    transform: translateX(0px) !important;
+  }
+
+  .Hero h1 {
+    font-size: 81px;
+  }
+
+  .HeroExtendedPadding svg {
+    width: auto;
+    margin-right: 0px;
   }
 }

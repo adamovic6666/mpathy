@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://mpathy.com/api/my-sitemap
+Sitemap: https://mpathyapps.com/api/my-sitemap

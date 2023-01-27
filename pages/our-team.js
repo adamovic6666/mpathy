@@ -5,7 +5,7 @@ import SEO from "../src/components/seo/SEO";
 const ourCrew = () => (
   <>
     <SEO
-      metaTitle="Mpathy Apps | Our Team"
+      metaTitle="Mpathy Apps | Team of the Emotional Revolution"
       metaDescription="The Emotional Revolution calls for extraordinary people. People who believe a better world is possible."
     />
 

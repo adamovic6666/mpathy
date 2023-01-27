@@ -16,8 +16,16 @@
   background: transparent;
 }
 
-@media only screen and (min-width: 768px) {
+@media only screen and (min-width: 1024px) {
+  .Link {
+    font-size: 14px;
+    padding: 8px 24px;
+  }
+}
+
+@media only screen and (min-width: 1440px) {
   .Link {
     font-size: 18px;
+    padding: 10px 32px;
   }
 }

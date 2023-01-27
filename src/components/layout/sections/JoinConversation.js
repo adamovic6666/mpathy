@@ -13,13 +13,14 @@ const JoinConversation = () => {
   return (
     <div className="container">
       <div className={classes.JoinConversation}>
-        <Image
-          src="/assets/happy-kids.jpg"
-          width={1280}
-          height={720}
-          alt="happy-kids"
-          className={classes.JoinConversationImage}
-        />
+        <div className={classes.ImageWrapper}>
+          <Image
+            src="/assets/happy-kids.jpg"
+            alt="happy-kids"
+            fill
+            style={{ objectFit: "cover" }}
+          />
+        </div>
         <div>
           <p>
             There are so many ways you can help – make a donation if you can. Or
@@ -38,7 +39,7 @@ const JoinConversation = () => {
         <MpathyYouth />
         <p>
           With your help, we can turn great ideas into a great app and help
-          millions of kids enjoys happier, healthier, ful;lled lives.
+          millions of kids enjoys happier, healthier, fulfilled lives.
         </p>
         <div>
           <Image

@@ -112,7 +112,7 @@
 .AppScreenshots p:nth-of-type(1),
 .JoinConversation p {
   max-width: 480px;
-  font-size: 24px;
+  font-size: 20px;
   color: white;
   line-height: 120%;
   text-align: center;
@@ -128,7 +128,7 @@
 }
 
 .AppScreenshots p:nth-of-type(1) {
-  font-size: 24px;
+  font-size: 20px;
   max-width: 600px;
   margin-top: -24px;
 }
@@ -139,17 +139,25 @@
   overflow: hidden;
 }
 
-@media only screen and (min-width: 768px) {
+.JoinConversation .ImageWrapper {
+  position: relative;
+  width: 100%;
+  border-radius: 8px;
+  overflow: hidden;
+  aspect-ratio: 16 / 9;
+  margin-bottom: 24px;
+}
+
+@media only screen and (min-width: 992px) {
   .AppScreenshots p:nth-of-type(1),
   .JoinConversation p {
-    font-size: 24px;
+    font-size: 20px;
   }
 
   .JoinConversation {
     margin-top: 160px;
   }
 
-  .JoinConversation,
   .AppScreenshots > div:not(:last-of-type) {
     flex-direction: row;
   }
@@ -177,7 +185,7 @@
   }
 
   .AppScreenshots p:nth-of-type(1) {
-    font-size: 24px;
+    font-size: 20px;
   }
 
   .AppScreenshots > div:nth-of-type(1) {
@@ -200,5 +208,66 @@
 
   .AppScreenshots > div:nth-of-type(2) {
     display: none;
+  }
+
+  .JoinConversation .ImageWrapper {
+    width: 50%;
+    aspect-ratio: unset;
+    height: 440px;
+    margin-top: 0px;
+    margin-right: 80px;
+    margin-bottom: 0px;
+  }
+}
+
+@media only screen and (min-width: 1024px) {
+  .JoinConversationImage {
+    width: 100%;
+  }
+
+  .JoinConversation .ImageWrapper {
+    width: 50%;
+    height: 320px;
+    margin-right: 0px;
+  }
+  .JoinConversation {
+    flex-direction: row;
+  }
+
+  .JoinConversation div:nth-of-type(2) {
+    padding-left: 80px;
+    width: 50%;
+  }
+
+  .AppScreenshots > div:nth-of-type(1) img {
+    transform: scale(2.5) translateY(24px);
+    margin-bottom: 120px;
+  }
+}
+
+@media only screen and (min-width: 1440px) {
+  .JoinConversationImage,
+  .JoinConversation .ImageWrapper {
+    width: 50%;
+    margin-right: 80px;
+    margin-bottom: 0px;
+    height: 420px;
+  }
+
+  .JoinConversation div:nth-of-type(2) {
+    padding-left: 0px;
+    width: auto;
+    transform: translateX(40px);
+  }
+
+  .AppScreenshots > div:nth-of-type(1) img {
+    transform: scale(3.5) translateY(24px);
+    margin-bottom: 224px;
+  }
+
+  .AppScreenshots p:nth-of-type(1),
+  .AppScreenshots p:nth-of-type(1),
+  .JoinConversation p {
+    font-size: 24px;
   }
 }

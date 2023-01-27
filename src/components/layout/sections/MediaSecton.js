@@ -36,21 +36,22 @@ const MediaSecton = () => {
             coming generations. Nothing could be more important.
           </p>
         </div>
-        <Image
-          src="/assets/distressed-kids.jpg"
-          width={1280}
-          height={720}
-          alt="distressed-kids"
-          className={classes.Image}
-        />
+        <div className={classes.ImageWrapper}>
+          <Image
+            src="/assets/distressed-kids.jpg"
+            alt="distressed-kids"
+            fill
+            style={{ objectFit: "cover" }}
+          />
+        </div>
       </div>
-      <div>
+      <div className={classes.Video}>
         <iframe
-          width="100%"
-          height="780"
+          // width="100%"
+          // height="780"
           src="https://www.youtube.com/embed/6LF4zpZ6-wM"
           title="YouTube video player"
-          frameborder="0"
+          // frameborder="0"
           allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
           allowfullscreen
         ></iframe>
