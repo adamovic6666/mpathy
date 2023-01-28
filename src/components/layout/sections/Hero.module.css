@@ -157,6 +157,20 @@
     margin: 40px 0;
   }
 
+  .Hero > div:nth-of-type(1) {
+    width: 55%;
+  }
+
+  .Hero > div:nth-of-type(2) {
+    width: 65%;
+    margin: 0 auto;
+  }
+
+  .HeroExtendedPadding > div:nth-of-type(2) {
+    width: 72%;
+    margin: 0 auto;
+  }
+
   .HeroSvgOurMissionPosition svg {
     margin: 0;
   }
@@ -350,5 +364,10 @@
   .HeroExtendedPadding svg {
     width: auto;
     margin-right: 0px;
+  }
+
+  .HeroExtendedPadding > div:nth-of-type(2),
+  .Hero > div:nth-of-type(2) {
+    width: 50%;
   }
 }
